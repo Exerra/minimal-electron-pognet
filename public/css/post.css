@@ -1,0 +1,60 @@
+.post-wrapper {
+	padding: 10px;
+	border-radius: 10px;
+	width: 50%;
+	margin-left: 20%;
+	background-color: var(--post-background);
+}
+
+.post-wrapper-full {
+	padding: 10px;
+	border-radius: 10px;
+	width: 70%;
+	margin-left: 20%;
+	height: 400px;
+	background-color: var(--post-background);
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px) {
+	.post-wrapper {
+		width: 90%;
+		margin-left: 0%;
+	}
+
+	.post-wrapper-full {
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+.post-content {
+	border-radius: 5px;
+	padding: 10px;
+	background-color: var(--post-content);
+}
+
+.post-toolbar {
+	border-radius: 5px;
+	padding: 2.5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: var(--post-toolbar);
+}
+
+.post-icon {
+	color: var(--post-icons);
+}
+
+.post-wrapper:not(:first-child) {
+	margin-top: 10px;
+}
+
+.post-title {
+	width: 64%;
+}
+
+.post-attachment {
+	border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+.btn:hover {
+	/* box-shadow: 0 0 20px #42454f67, 0 0 7.5px #42454f67, 0 0 1.5px #42454f67; */
+	background-color: #42454f67 !important;
+	transition: 0.5s ease;
+}
+
+.btn {
+	background-color: #42454f34 !important;
+	transition: 0.6s ease;
+	margin-top: 15px !important;
+	color: #f0f0f0;
+}
+
+input, textarea, select {
+	background-color: #42454f34 !important;
+	border-color: #42454f34 !important;
+	color: var(--text-primary) !important;
+	transition: 0.6s ease;
+}
+
+textarea:focus, input:focus {
+	background-color: #42454f34 !important;
+	border-color: #42454f34 !important;
+	color: var(--text-primary) !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+a {
+	color: var(--text-primary) !important;
+	text-decoration: none !important;
+}

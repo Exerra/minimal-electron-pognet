@@ -1,0 +1,25 @@
+*:not(textarea) {
+	transition: 0.4s ease-in-out;
+}
+
+:root {
+	--body-background: unset;
+	--text-primary: #fff;
+	--post-background: #1a1a1b34;
+	--post-content: #33353d34;
+	--post-toolbar: #42454f34;
+	--post-icons: #fff;
+	--switch-thumb: #1a1a1b34;
+	--switch-background: #e0e0e034;
+}
+
+[data-theme="dark"] {
+	--body-background: unset;
+	--text-primary: #19191a34;
+	--post-background: unset;
+	--post-content: #adb2c934;
+	--post-toolbar: #c8cee634;
+	--post-icons: #19191a34;
+	--switch-thumb: #bfc4d634;
+	--switch-background: #11111134;
+}
